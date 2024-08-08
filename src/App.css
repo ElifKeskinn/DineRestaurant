@@ -1,0 +1,563 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+header {
+    width: 375px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    background-color: #111111;
+    margin: 0 auto;
+    margin-bottom: 376px;
+}
+
+.top_image {
+    background-image: url(../img/header_img.png);
+    width: 375px;
+    height: 210px;
+    background-position: -83px -160px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.page_logo {
+    width: 82.4px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.header_text {
+    margin-top: 12px;
+}
+
+.header_text h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.4000000059604645px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+
+.header_text p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 327px;
+    height: 78px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+
+.header_text a {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 25px 55px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.card1 {
+    position: relative;
+}
+
+.card1 img {
+    position: absolute;
+    top: -452px;
+    left: 21px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards h1 {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.4000000059604645px;
+    margin-bottom: 13px;
+}
+
+.cards p {
+    width: 327px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 101px;
+}
+
+.card {
+    padding: 0 12px;
+}
+
+.card2 img {
+margin: auto;
+margin-bottom: 48px;
+}
+
+.food_cards {
+    background-color: #111111;
+    width: 375px;
+    height: 1720px;
+    padding: 115px 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.food_cards h1 {
+    color: white;
+    width: 327px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.4000000059604645px;
+    margin: 0px auto;
+    margin-bottom: 13px;
+}
+
+.food_cards h2 {
+    color: white;
+    width: 327px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    margin: 0px auto;
+    margin-bottom: 6px;
+}
+
+
+.food_cards p {
+    color: white;
+    width: 327px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px auto;
+    margin-bottom: 54px;
+}
+
+.food_cards img {
+    margin-bottom: 36px;
+}
+
+.food_cards hr {
+    margin-bottom: 24px;
+    opacity: 14.94%;
+}
+
+.family_gathering {
+    text-align: center;
+    margin-bottom: 124px;
+}
+
+.family_gathering img {
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+
+.family_gathering h2 {
+    color: #4C4C4C;
+    width: 326px;
+    height: 28px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.family_gathering span h2 {
+    color: #4C4C4C;
+    opacity: 50%;
+}
+
+.family_gathering h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.4000000059604645px;
+    margin-bottom: 13px;
+}
+
+.family_gathering p {
+    width: 327px;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.family_gathering a {
+    color: white;
+    background-color: #111111;
+    width: 136px;
+    height: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    padding: 25px 55px;
+}
+
+
+
+
+footer {
+    background-color: #111111;
+    width: 375px;
+    height: 440px;
+    text-align: center;
+    padding: 0px 24px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+footer img {
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+footer h3 {
+    margin-bottom: 32px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+@media (width > 767px) {
+    .container {
+        width: 768px;
+}
+ header {
+    width: 768px;
+ }
+
+ .top_image {
+    background-image: url(../img/header_img.png);
+    width: 768px;
+    height: 440px;
+    background-position: -170px -328px;
+    background-size: 150%;
+    background-repeat: no-repeat
+}
+
+.header_text h1 {
+    width: 389px;
+    height: 128px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: -0.6000000238418579px;
+}
+
+.header_text p {
+    width: 573px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cards h1 {
+    width: 357px;
+    height: 96px; 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.cards p {
+    width: 457px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card1 img {
+    position: absolute;
+    top: -452px;
+    left: 95px;
+    width: 573px;
+    height: 360px;
+    object-fit: cover;
+} 
+.card2 img {
+    width: 573px;
+    object-fit: cover;
+    height: 360px;
+}
+ 
+.food_cards {
+    width: 768px;
+    height: 858px;
+    margin: 0 auto;
+    padding: 96px;
+    margin-bottom: 120px;
+}
+
+.food_cards h1 {
+    width: 445px;
+    height: 96px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.food_cards p {
+    width: 445px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.food_cards img {
+    width: 128px;
+    height: 96px;
+}
+
+.food_card {
+    display: flex;
+    width: auto;
+    text-align: start;
+    gap: 62px;
+}
+
+.food_card h2 {
+    margin: 0px;
+    width: 383px;
+}
+
+.food_card p {
+    width: 383px;
+}
+
+.food_Card_text {
+    width: auto;
+    height: 100px;
+}
+
+.event_item {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.family_gathering img {
+  width: 573px;
+  height: 360px;
+  object-fit: cover;
+}
+
+.family_gathering h1 {
+    width: 457px;
+    height: 48px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.family_gathering p {
+    width: 457px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.reservation {
+    position: relative;
+    background-color: #111111;
+    background-image: url(../img/reservation_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 705px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .reservation h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .reservation a {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 25px 55px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+  }
+  
+  .reservationimg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+
+  
+  
+footer {
+    width: 768px;
+    height: 328px;
+    display: flex;
+    align-items: flex-start;
+}
+
+footer img {
+    margin: 0;
+    padding-right: 130px;
+}
+
+.footer_texts h3 {
+    text-align: left;
+}
+
+.special_text {
+    color: #4C4C4C;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    width: 223px;
+    height: 28px;
+
+opacity: 50%;
+
+}
+
+}
+
+
+
+@media (width > 1110px) {
+  
+header {
+    width: 1110px;
+
+}
+
+.container {
+    width: 1110px;
+
+}
+
+footer {
+    width: 1110px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bana bu kodları furkan vermiştir 
+allah ondan razı olsun
+eğer puan kırarsanız ondan kırın teşekkürler*/
